@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMOEBA — Field Data &amp; Analytics Service</title>
+<link rel="icon" type="image/png" href="assets/amoeba-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* --- Logo additions: kept self-contained so they don't fight the existing stylesheet --- */
+  .logo{
+    display:flex;
+    align-items:center;
+    gap:.5rem;
+  }
+  .logo-img{
+    height:34px;
+    width:auto;
+    display:block;
+  }
+  .hero-logo-badge{
+    position:absolute;
+    top:2rem;
+    right:2rem;
+    width:120px;
+    opacity:.9;
+    pointer-events:none;
+  }
+  .hero-logo-badge img{
+    width:100%;
+    height:auto;
+    display:block;
+  }
+  .hero{ position:relative; }
+  @media (max-width:768px){
+    .hero-logo-badge{ display:none; }
+  }
+  .footer-inner{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:.6rem;
+  }
+  .footer-logo{
+    height:22px;
+    width:auto;
+    display:block;
+  }
+</style>
+</head>
+<body>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <img src="assets/amoeba-logo.png" alt="AMOEBA logo" class="logo-img">
+      AMOEBA<span class="logo-dot">.</span>
+    </a>
+
+    <label for="nav-toggle" class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="main-nav">
+      <a href="#pillars">Services</a>
+      <a href="#people">People</a>
+      <a href="#contact">Price List</a>
+    </nav>
+  </div>
+</header>
+
+<label for="nav-toggle" class="nav-scrim"></label>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Field Data &amp; Analytics Service</p>
+      <h1>We turn raw field data<br> into decisions you can trust.</h1>
+      <p class="hero-lede">
+        AMOEBA supports marketing research teams end-to-end — from CAPI/CAWI
+        fieldwork and questionnaire scripting, through tabulation and statistics,
+        to reporting your stakeholders actually understand.
+      </p>
+      <div class="hero-actions">
+        <a href="#pillars" class="btn btn-primary">See what we do</a>
+        <a href="#contact" class="btn btn-ghost">See pricing</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIVE PILLARS -->
+  <section id="pillars" class="pillars">
+    <div class="section-head">
+      <p class="eyebrow">How we work</p>
+      <h2>Five pillars, one workflow</h2>
+      <p class="section-sub">Every project moves through the same disciplined path — from data preparation to insight your team can act on.</p>
+    </div>
+
+    <div class="pillar-list">
+
+      <article class="pillar-card">
+        <span class="pillar-num">01</span>
+        <h3>Software &amp; Tools</h3>
+        <p class="pillar-tag">High quality in data preparation</p>
+        <div class="pillar-body">
+          <p><strong>CAPI &amp; CAWI</strong> — Survey To Go, KoBoToolbox &amp; LimeSurvey. Choosing the right CAPI application for fast‑turnaround projects keeps costs under control, and disciplined scripting gets us to zero‑error data.</p>
+          <p><strong>Tabulation</strong> — QPS, CL &amp; Macro Tab, Python.</p>
+          <p><strong>Statistical analysis</strong> — SPSS, XLSTAT, R, Python, AMOS, LISREL &amp; PLS.</p>
+        </div>
+      </article>
+
+      <article class="pillar-card">
+        <span class="pillar-num">02</span>
+        <h3>Online Report</h3>
+        <p class="pillar-tag">Deep analysis &amp; impactful insight</p>
+        <div class="pillar-body">
+          <p>Built on <strong>Tableau</strong> and <strong>Power BI</strong>, our reporting starts with structured, systematic questionnaires designed around modern statistical principles — the foundation for analysis that's genuinely comprehensive, not just presentable.</p>
+        </div>
+      </article>
+
+      <article class="pillar-card">
+        <span class="pillar-num">03</span>
+        <h3>Team Support</h3>
+        <p class="pillar-tag">Quality control, done properly</p>
+        <div class="pillar-body">
+          <p><strong>Audio-visual QC</strong> to verify fieldwork as it happens, and dedicated <strong>coders for open-end responses</strong>, so nothing gets lost between the field and the dataset.</p>
+        </div>
+      </article>
+
+      <article class="pillar-card">
+        <span class="pillar-num">04</span>
+        <h3>Machine Learning &amp; Data Visualization</h3>
+        <p class="pillar-tag">Reports you can reach anywhere</p>
+        <div class="pillar-body">
+          <p>Accessible offline and online, with live field-progress monitoring — so you can watch your project move in real time and report on it the moment it matters.</p>
+        </div>
+      </article>
+
+      <article class="pillar-card">
+        <span class="pillar-num">05</span>
+        <h3>Our People</h3>
+        <p class="pillar-tag">Responsive &amp; responsible advisory</p>
+        <div class="pillar-body">
+          <p>Two decades of hands-on research experience behind every project — a team that trains as hard as it delivers. Meet them below.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PEOPLE -->
+  <section id="people" class="people">
+    <div class="section-head">
+      <p class="eyebrow">Our people</p>
+      <h2>The team behind the numbers</h2>
+    </div>
+
+    <div class="people-grid">
+
+      <article class="person-card">
+        <img src="assets/chaerudin.png" alt="Portrait of Chaerudin" class="person-photo">
+        <div class="person-info">
+          <h3>Chaerudin</h3>
+          <p class="person-role">Data Preparation &amp; Statistical Analysis, Quality Control</p>
+          <p class="person-bio">21+ years in the marketing research industry. Builds systematic, efficient QC processes, trains smart and resilient data-preparation teams, and coaches research teams in advanced statistical analysis. Formerly with MARS, DEKA &amp; CLOVE.</p>
+          <div class="person-contact">
+            <a href="https://wa.me/628997000884" target="_blank" rel="noopener noreferrer">
+              <svg class="wa-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.403.002 9.803-4.394 9.806-9.799.002-2.618-1.016-5.08-2.868-6.932C16.357 2.022 13.896.994 11.28.994 5.877.994 1.477 5.39 1.474 10.796c-.001 1.543.41 3.05 1.192 4.364l-.137.24L1.393 20.6l5.441-1.425.213.125zM17.07 14.887c-.272-.136-1.61-.795-1.86-.886-.25-.091-.432-.136-.613.136-.182.273-.703.886-.862 1.068-.159.182-.318.205-.59.069-.272-.136-1.15-.424-2.19-1.353-.809-.721-1.355-1.614-1.514-1.886-.159-.273-.017-.42.119-.556.122-.122.272-.318.408-.477.136-.16.182-.273.272-.455.09-.182.046-.341-.023-.477-.069-.136-.613-1.477-.84-2.023-.22-.53-.442-.457-.607-.466-.157-.008-.338-.01-.52-.01-.182 0-.477.068-.727.341-.25.272-.954.932-.954 2.273 0 1.341.977 2.636 1.114 2.818.137.182 1.92 2.932 4.654 4.114.65.281 1.157.449 1.554.575.653.207 1.248.178 1.718.108.524-.078 1.61-.659 1.838-1.266.227-.607.227-1.127.159-1.236-.068-.11-.25-.178-.522-.314z"/></svg>
+              +62 899 7000 884
+            </a>
+            <a href="mailto:erudin93@gmail.com">erudin93@gmail.com</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="person-card">
+        <img src="assets/fahmi.png" alt="Portrait of Fahmi Darmawan" class="person-photo">
+        <div class="person-info">
+          <h3>Fahmi Darmawan</h3>
+          <p class="person-role">Machine Learning &amp; Data Visualization</p>
+          <p class="person-bio">24+ years in the marketing research industry, specializing in data processing and tooling, with process automation through VBA and Python. Applies machine learning for faster, smarter decision-making. Formerly with MARS, Nielsen &amp; DEKA.</p>
+          <div class="person-contact">
+            <a href="https://wa.me/6287881128081" target="_blank" rel="noopener noreferrer">
+              <svg class="wa-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.403.002 9.803-4.394 9.806-9.799.002-2.618-1.016-5.08-2.868-6.932C16.357 2.022 13.896.994 11.28.994 5.877.994 1.477 5.39 1.474 10.796c-.001 1.543.41 3.05 1.192 4.364l-.137.24L1.393 20.6l5.441-1.425.213.125zM17.07 14.887c-.272-.136-1.61-.795-1.86-.886-.25-.091-.432-.136-.613.136-.182.273-.703.886-.862 1.068-.159.182-.318.205-.59.069-.272-.136-1.15-.424-2.19-1.353-.809-.721-1.355-1.614-1.514-1.886-.159-.273-.017-.42.119-.556.122-.122.272-.318.408-.477.136-.16.182-.273.272-.455.09-.182.046-.341-.023-.477-.069-.136-.613-1.477-.84-2.023-.22-.53-.442-.457-.607-.466-.157-.008-.338-.01-.52-.01-.182 0-.477.068-.727.341-.25.272-.954.932-.954 2.273 0 1.341.977 2.636 1.114 2.818.137.182 1.92 2.932 4.654 4.114.65.281 1.157.449 1.554.575.653.207 1.248.178 1.718.108.524-.078 1.61-.659 1.838-1.266.227-.607.227-1.127.159-1.236-.068-.11-.25-.178-.522-.314z"/></svg>
+              +62 878 8112 8081
+            </a>
+            <a href="mailto:fahmi.darmawan@hotmail.com">fahmi.darmawan@hotmail.com</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PRICE LIST -->
+  <section id="contact" class="price-list">
+    <div class="section-head">
+      <p class="eyebrow">Pricing</p>
+      <h2>Price list</h2>
+      <p class="section-sub">
+        Indicative rates across data preparation, reporting, statistical analysis and
+        advisory support. All figures are in IDR, thousands (Rp&nbsp;x1,000), and vary
+        with project scope and complexity.
+      </p>
+    </div>
+
+    <div class="price-tabs">
+      <input type="radio" name="price-tab" id="tab-dp" class="tab-input" checked>
+      <input type="radio" name="price-tab" id="tab-dash" class="tab-input">
+      <input type="radio" name="price-tab" id="tab-stat" class="tab-input">
+      <input type="radio" name="price-tab" id="tab-adv" class="tab-input">
+
+      <div class="tab-bar">
+        <label for="tab-dp">Data Processing</label>
+        <label for="tab-dash">Reporting &amp; Dashboard</label>
+        <label for="tab-stat">Statistical Analysis</label>
+        <label for="tab-adv">Advisory</label>
+      </div>
+
+      <div class="tab-panels">
+
+        <!-- DATA PROCESSING -->
+        <div class="tab-panel panel-dp">
+          <div class="table-wrap">
+            <table class="price-table">
+              <thead>
+                <tr><th>Job level</th><th>LOI (minutes)</th><th>Scripting</th><th>Tabulation</th><th>Tools</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Easy</td><td>Less than 20</td><td>750</td><td>750</td><td>QPS, Survey To Go, KoBoToolbox, LimeSurvey</td></tr>
+                <tr><td>Medium</td><td>21–45</td><td>1,000–2,000</td><td>1,500–2,500</td><td>QPS, Survey To Go, KoBoToolbox, LimeSurvey</td></tr>
+                <tr><td>Advance</td><td>More than 45</td><td>2,000–3,000</td><td>2,500–4,000</td><td>QPS, Survey To Go, KoBoToolbox, LimeSurvey</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">Coding open-end: Rp 250 per open-end response.</p>
+        </div>
+
+        <!-- REPORTING & DASHBOARD -->
+        <div class="tab-panel panel-dash">
+          <div class="table-wrap">
+            <table class="price-table">
+              <thead>
+                <tr><th>No</th><th>Material</th><th>Tools</th><th>IDR (x1,000)</th><th>Note</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Dashboard achievement project</td><td>Tableau / Power BI</td><td>1,000–5,000</td><td>Depends on number of panels</td></tr>
+                <tr><td>2</td><td>Dashboard of topline report</td><td>Tableau / Power BI</td><td>3,000–10,000</td><td>Depends on number of slides</td></tr>
+                <tr><td>3</td><td>Charting</td><td>PowerPoint</td><td>10,000 / slide</td><td>No template</td></tr>
+                <tr><td>4</td><td>Charting</td><td>PowerPoint</td><td>20,000 / slide</td><td>With template</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- STATISTICAL ANALYSIS -->
+        <div class="tab-panel panel-stat">
+          <div class="table-wrap">
+            <table class="price-table">
+              <thead>
+                <tr><th>Material</th><th>Tools</th><th>IDR (x1,000)</th><th>Note</th></tr>
+              </thead>
+              <tbody>
+                <tr class="category-row"><td colspan="4">1. Perceptual mapping</td></tr>
+                <tr><td>Map correspondence</td><td>XLSTAT</td><td>500–2,000</td><td>Max 10 breaks</td></tr>
+                <tr><td>Positioning &amp; brand image</td><td>Excel</td><td>250–1,000</td><td>Max 10 breaks</td></tr>
+                <tr><td>Biplot</td><td>Macro Biplot</td><td>500–750</td><td>Max 10 breaks</td></tr>
+                <tr><td>Multiple correspondence</td><td>XLSTAT</td><td>1,000–3,000</td><td>Max 10 breaks</td></tr>
+
+                <tr class="category-row"><td colspan="4">2. Statistical test</td></tr>
+                <tr><td>Proportion test</td><td>Macro</td><td>500</td><td>All headers</td></tr>
+                <tr><td>Mean score test</td><td>Macro</td><td>500</td><td>All headers</td></tr>
+                <tr><td>Non-parametric test</td><td>Macro</td><td>from 300</td><td>Per break header</td></tr>
+
+                <tr class="category-row"><td colspan="4">3. Factor analysis</td></tr>
+                <tr><td>Factor analysis</td><td>SPSS, R</td><td>500–1,000</td><td>By total</td></tr>
+
+                <tr class="category-row"><td colspan="4">4. ANOVA (Analysis of Variance)</td></tr>
+                <tr><td>ANOVA</td><td>SPSS, R</td><td>from 1,000</td><td>By total &amp; treatment</td></tr>
+
+                <tr class="category-row"><td colspan="4">5. Driver analysis</td></tr>
+                <tr><td>Correlation analysis</td><td>SPSS / Excel</td><td>200–500</td><td>Max 10 breaks</td></tr>
+                <tr><td>Partial correlation (impact analysis)</td><td>R</td><td>500–1,000</td><td>Max 10 breaks</td></tr>
+                <tr><td>Linear regression (driver analysis)</td><td>SPSS, R</td><td>500–2,000</td><td>Max 10 breaks</td></tr>
+                <tr><td>Path analysis</td><td>PLS</td><td>1,000–3,000</td><td>Max 10 breaks</td></tr>
+                <tr><td>Non-linear regression</td><td>SPSS, R</td><td>2,000–3,000</td><td>Max 10 breaks</td></tr>
+
+                <tr class="category-row"><td colspan="4">6. Segmentation analysis (12,000–25,000)</td></tr>
+                <tr><td>Cluster</td><td>SPSS, XLSTAT, R</td><td>1,000–3,000</td><td>Number of attributes</td></tr>
+                <tr><td>Discriminant</td><td>SPSS, XLSTAT, R</td><td>3,000–5,000</td><td>Number of attributes</td></tr>
+                <tr><td>CHAID</td><td>SPSS, XLSTAT, R</td><td>2,000–3,000</td><td>Number of attributes</td></tr>
+                <tr><td>Discriminant with covariance analysis</td><td>Latent Gold</td><td>5,000–8,000</td><td>Number of attributes</td></tr>
+
+                <tr class="category-row"><td colspan="4">7. Penalty analysis</td></tr>
+                <tr><td>Penalty analysis</td><td>XLSTAT</td><td>1,000</td><td>By total</td></tr>
+
+                <tr class="category-row"><td colspan="4">8. Ideal range analysis</td></tr>
+                <tr><td>Ideal range analysis</td><td>SPSS, Macro</td><td>1,000–3,000</td><td>Max 6 products</td></tr>
+
+                <tr class="category-row"><td colspan="4">9. Acceptable price analysis (PSM)</td></tr>
+                <tr><td>Acceptable price analysis</td><td>Excel</td><td>500–1,500</td><td>Max 10 breaks</td></tr>
+
+                <tr class="category-row"><td colspan="4">10. TURF analysis</td></tr>
+                <tr><td>TURF analysis</td><td>XLSTAT</td><td>1,500</td><td>By total</td></tr>
+
+                <tr class="category-row"><td colspan="4">11. Conjoint analysis</td></tr>
+                <tr><td>Simple conjoint</td><td>XLSTAT</td><td>3,000–5,000</td><td>Number of combinations</td></tr>
+                <tr><td>CBC</td><td>XLSTAT</td><td>4,000–6,000</td><td>Number of combinations</td></tr>
+                <tr><td>MaxDiff</td><td>XLSTAT</td><td>3,000–4,000</td><td>Number of combinations</td></tr>
+
+                <tr class="category-row"><td colspan="4">12. Weighting data</td></tr>
+                <tr><td>Weighting data</td><td>SPSS, QPS</td><td>500–1,000</td><td>Depth of weighting matrix</td></tr>
+
+                <tr class="category-row"><td colspan="4">13. Questionnaire validity &amp; reliability test</td></tr>
+                <tr><td>Validity &amp; reliability test</td><td>SPSS</td><td>500–1,000</td><td>Number of questions &amp; sections</td></tr>
+
+                <tr class="category-row"><td colspan="4">14. Quadrant analysis</td></tr>
+                <tr><td>Key driver, gap &amp; consumer value analysis</td><td>XLSTAT, SPSS</td><td>2,500–4,000</td><td>By total</td></tr>
+
+                <tr class="category-row"><td colspan="4">15. Structural Equation Modeling (SEM)</td></tr>
+                <tr><td>SEM</td><td>LISREL, AMOS</td><td>5,000–10,000</td><td>By total</td></tr>
+
+                <tr class="category-row"><td colspan="4">16. Brand equity model</td></tr>
+                <tr><td>Brand equity model</td><td>QPS + Excel, SPSS</td><td>5,000–7,500</td><td>By total</td></tr>
+
+                <tr class="category-row"><td colspan="4">17. Predictive analysis</td></tr>
+                <tr><td>Predictive analysis</td><td>SPSS, XLSTAT, R</td><td>7,500–15,000</td><td>By total</td></tr>
+
+                <tr class="category-row"><td colspan="4">18. Text mining</td></tr>
+                <tr><td>Sentiment analysis (social media, web news, etc.)</td><td>Python, R</td><td>10,000–20,000</td><td>By time period</td></tr>
+
+                <tr class="category-row"><td colspan="4">19. Media monitoring analysis</td></tr>
+                <tr><td>Media monitoring analysis</td><td>Python, R</td><td>15,000–30,000</td><td>By time period</td></tr>
+
+                <tr class="category-row"><td colspan="4">20. Machine learning &amp; data visualization</td></tr>
+                <tr><td>ML &amp; data visualization</td><td>Java, R, VB, web dev</td><td>10,000–25,000</td><td>Per project</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- ADVISORY -->
+        <div class="tab-panel panel-adv">
+          <div class="table-wrap">
+            <table class="price-table">
+              <thead>
+                <tr><th>No</th><th>Type of advisor</th><th>Job description</th><th>IDR (x1,000) / month</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Data Processing advisor</td><td>Input, tips and problem-solving tricks for issues that arise in data preparation, scripting, data cleaning and tabulation.</td><td>3,000–5,000</td></tr>
+                <tr><td>2</td><td>Data Analysis advisor</td><td>Everything in Data Processing advisor, plus advising PM/researchers on questionnaire design with full analysis features, and support for in-depth analysis of every insight to explore.</td><td>6,000–8,000</td></tr>
+                <tr><td>3</td><td>QC advisor</td><td>Optimize CAPI software as a QC tool, manually and systematically.</td><td>2,000–3,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">Note: all prices listed depend on the number of projects per month.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <p class="price-cta">Want a tailored quote for your project? <a href="#people">Reach our team directly</a>.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <img src="assets/amoeba-logo.png" alt="AMOEBA logo" class="footer-logo">
+    <p>© <span id="year"></span> AMOEBA — Field Data &amp; Analytics Service.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
